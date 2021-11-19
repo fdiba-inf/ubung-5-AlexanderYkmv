@@ -17,9 +17,9 @@ public class AscendingSort {
             numbers[index] = input.nextInt();
         }
 
-        // Sort numbers in ascending order
+        Arrays.sort(numbers);
 
-        String numbersAsString = Arrays.toString(numbers);
-        System.out.println("Sorted numbers: " + numbersAsString);
+        
+        System.out.println("Sorted numbers: " + Arrays.toString(numbers));
     }
 }
